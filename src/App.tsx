@@ -10,7 +10,6 @@ import RegisterPage from './pages/RegisterPage';
 import DashboardPage from './pages/DashboardPage';
 import AdminDashboardPage from './pages/AdminDashboardPage';
 import AdminReportsPage from './pages/AdminReportsPage';
-import AdminUrgentPage from './pages/AdminUrgentPage';
 import AdminWardInsightsPage from './pages/AdminWardInsightsPage';
 import AdminAnalyticsPage from './pages/AdminAnalyticsPage';
 import AdminResidentsPage from './pages/AdminResidentsPage';
@@ -112,7 +111,6 @@ const AppRoutes: React.FC = () => {
       }>
         <Route index element={<AdminDashboardPage />} />
         <Route path="reports" element={<AdminReportsPage />} />
-        <Route path="urgent" element={<AdminUrgentPage />} />
         <Route path="map" element={<AdminWardInsightsPage />} />
         <Route path="analytics" element={
           <AdminAnalyticsPage />

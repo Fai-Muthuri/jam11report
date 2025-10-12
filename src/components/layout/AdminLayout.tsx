@@ -21,7 +21,6 @@ const AdminLayout: React.FC = () => {
   const navItems = [
     { to: '/admin', label: 'Dashboard', icon: Home },
     { to: '/admin/reports', label: 'Reports', icon: FileText },
-    { to: '/admin/urgent', label: 'Urgent Issues', icon: AlertTriangle },
     { to: '/admin/announcements', label: 'Announcements', icon: Megaphone },
     { to: '/admin/map', label: 'Ward Insights', icon: Map },
     { to: '/admin/analytics', label: 'Analytics', icon: BarChart3 },
