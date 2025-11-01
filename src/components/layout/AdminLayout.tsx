@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation, Outlet } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-  Menu, X, Home, FileText, AlertTriangle, Map,
+  Menu, X, Home, FileText, Map,
   BarChart3, Users, Settings, LogOut, User, Bell,
   ChevronLeft, ChevronRight, Megaphone
 } from 'lucide-react';
